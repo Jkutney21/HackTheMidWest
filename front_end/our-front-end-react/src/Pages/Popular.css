@@ -1,0 +1,133 @@
+body {
+  background-color: #f0f4f8; /* Set a light background color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #333; /* Darker color for the title */
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: rgba(45, 146, 59, 0.9); /* Green on focus */
+}
+
+.links {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 15px; /* Space between buttons */
+  margin-bottom: 30px; /* Space below the buttons */
+}
+
+.link-item {
+  text-decoration: none;
+  background: rgba(45, 146, 59, 0.9);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.link-item:hover {
+  background: rgba(45, 146, 59, 1);
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.carousel {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1px;
+  border-radius: 10px;
+  overflow: hidden; /* Prevent overflow from carousel cells */
+}
+
+.carousel-cell {
+  width: 275px; /* Adjust width based on your design */
+  margin: 0 2px; /* Set left and right margins to 2px */
+  display: inline-block; /* Ensure cells are inline */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5) !important; /* Card background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  overflow: hidden; /* Ensure content fits within card */
+  transition: transform 0.3s ease; /* Animation effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.card-img-top {
+  width: 100%; /* Ensure image fills the card */
+  height: 150px; /* Fixed height to maintain layout */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 5px 5px 0 0; /* Rounded top corners */
+}
+
+.card-body {
+  text-align: center;
+  padding: 5px; /* Reduced padding inside the card */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 5px; /* Reduced bottom margin */
+}
+
+.card-publisher {
+  font-size: 0.9rem;
+  margin-bottom: 10px; /* Reduced bottom margin */
+  color: #666; /* Lighter color for publisher */
+}
+
+.btn {
+  background-color: rgba(45, 146, 59, 0.5);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px; /* Adjusted padding for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: rgba(45, 146, 59, 1);
+}
+
+.btn-primary {
+  background-color: #28a745; /* Green for review button */
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}

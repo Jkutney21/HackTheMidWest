@@ -1,0 +1,52 @@
+.header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.box {
+  background-color: #0e0d0d; /* Dark background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px; /* Space between boxes */
+  height: 300px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out content */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Text color */
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Stack image and text */
+  align-items: center; /* Center content */
+  flex-grow: 1; /* Allow content to take up available space */
+}
+
+.about-image {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+  border-radius: 50%; /* Circular images */
+  margin-bottom: 10px; /* Space below image */
+  object-fit: cover; /* Ensure image covers the circle */
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem; /* Adjust title size */
+  margin-bottom: 10px; /* Space below title */
+}
+
+.role{
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 10px; 
+}
+
+.p1 {
+  text-align: center; /* Center text */
+  color: #ccc; /* Lighter text color */
+}
+
